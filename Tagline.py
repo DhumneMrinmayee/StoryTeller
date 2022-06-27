@@ -74,6 +74,6 @@ if __name__ == "__main__":
 
 
 """git add .
-git commit -m "message for the commit"
-git remote add origin https://github.com/DhumneMrinmayee/StoryTeller
-git push origin master or git push -f origin master"""
+git commit -m "add Tagline.py"
+git remote add origin https://github.com/DhumneMrinmayee/StoryTeller/.git/Tagline.py
+git push origin master or git push -f  Tagline.py"""
