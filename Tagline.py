@@ -5,7 +5,7 @@ import openai
 import argparse  # Python Command-Line Parsing Libraries
 import re
 
-max_input_length = 12
+max_input_length = 32
 
 
 def main():
@@ -43,7 +43,7 @@ def create_tagline(snippet: str) -> str:
     tagline_text = tagline_text.strip()  # removing white space within output text
     end_char = tagline_text[-1]
     if end_char not in {".", "!", "?"}:  # ending of the output text:  Added "..." for truncate the text
-        tagline_text += "..."
+        tagline_text += "...!"
 
     print("Result:", tagline_text)
     return tagline_text
@@ -51,7 +51,7 @@ def create_tagline(snippet: str) -> str:
 
 def create_keyword(words: str) -> List[str]:
     openai.api_key = os.getenv("OPENAI_API_KEY")
-    prompt = f"Creative keywords for the Advertisement  of a product {words}: "
+    prompt = f"Creative keywords network for the product {words}: "
     print(prompt)
 
     response = openai.Completion.create(model="text-curie-001",
