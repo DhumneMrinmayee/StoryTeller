@@ -1,0 +1,19 @@
+"Guzul?  Is that you?"
+
+"Hey, Kuli.  Good to perceive you.  What are you doing here?"
+
+"Checking out the local eats, like you.  These humans don't know how good they've got it.  Over there, is that ... ?"
+
+"Yeah, that's ol' Reedle.  Wolfing down the usual combo."
+
+"And ... " [pointing across]
+
+"Yup.  Zilzabo.  Looks like they're going for the all-day breakfast this time."
+
+"How many of us are there in here?"
+
+[looks around]  "Probably a dozen or so.  Those two over there appear to be locals, though."
+
+"Doesn't it strike you as a bit weird that it's mostly us in here, and hardly any actual humans?"
+
+[decent imitation of a human shrug] "Honestly, it's probably the only thing keeping most of these places open.  According to the humans, this place isn't particularly good food, but like they say, 'I'm lovin' it'"

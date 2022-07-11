@@ -1,0 +1,41 @@
+Ten billion bits per second.
+
+Not ten thousand, not even the record one million that Relo engineers managed on superconducting twisted pair. The issue wasn't the medium, as the loss was negligible. Rather the problem was the noise floor on the circuitry itself and the limited switching rate of the electromechanical relays used.
+
+Xalens grimaced at the thought, while his seven fingers continued to unspool the reel of yellow fiber. The technician behind him used his manipulator to dig a thin trench in the steel bulkhead. Another squeezed the cable inside the gap before the manipulator fused the trench shut at the molecular level.
+
+This was better than the hollow electrical conduits used on human ships - ocean going ones, he reminded himself. Once sealed in, the connection would be as indestructible as the bulkhead itself. For redundancy's sake, two other teams were installing additional links from the bridge to the communications closet.
+
+Not a computer center, a hall of chittering microscopic relays arranged in lattices. The noise alone was deafening. A powerful cooling system was needed to keep the superconductors happy, pushing excess heat into outer space.
+
+Worst of all was the fact that those relays were prone to failure. Xalens had worked on those in school, and it was quite the exercise to stare at the blinkenlights to see which module was at fault. The datacenters obviously had proper test vectors and voting circuits, but even those weren't foolproof.
+
+But hey, that was the price of going digital. The Relo flag *Convergence* was one of the few with this computerized navigation and communications system. One that was now being upgraded with human technology literally generations ahead.
+
+Xalens stopped at the "closet", a tiny room guarded by Marines in dark blue armor. One ran a lamp over the tattoo on his neck, causing the hologram to flicker in bright colors. With a nod, he was ushered in with the rest of his team.
+
+In human terms, the piece of equipment in the room was the size of a bar fridge. A half-rack with twenty-four spaces, the metal frame securely welded to the floor.
+
+"Thank you, Xalens," the human beside the rack said. His accent was atrocious, but at least understandable. "We'll take it from here."
+
+Another human was seated at a desk with a monitor and keyboard. The teeny 8-bit microcontroller in the monitor's switching power supply already destroyed the enormous computers Xalens used at school. Ditto for the one in the keyboard that literally took the keypresses and sent them to the computer.
+
+Xalens could design one with much less, of course. Just multiplex the signals over a wire, all in hardware. The humans had a lot more signaling and baggage in place though, from checksums to rate negotiation over the "USB" protocol. Something which he supposed made sense when integrated circuits could be obtained so easily.
+
+The first technician began fiddling with the fiber terminations, and Xalens had time to stare at the servers in the rack. Each had ten gigabits of I/O and 256 gigabytes of memory. For the humans, that wasn't even particularly special for a 1U server. Xalens knew that if he added up every bit of volatile and non-volatile storage in Relo he wouldn't even come close to that number.
+
+Though, the humans were particularly interested in the nanofabrication technologies of his people. Apparently they could be used to construct even denser storage devices in the order of petabytes.
+
+Meanwhile, each server had sixteen processor cores. Xalens remembered the Relo crowd scoffing at that, as their machines used heavy parallelization to compensate for the slowly switching relays. It was common for a Relo system to have thousands of clustered compute units.
+
+Then their guest speaker announced that each core ran at three GHz, had multiple execution units, and operations like multiplication only took a couple cycles. You could've heard a pin drop.
+
+As Xalens finally took his awestruck eyes off the equipment and prepared to leave, he saw the human at the desk lean back and take out his mobile phone. While weaker than the servers, the computing capacity of such a small device was mindblowing.
+
+He craned his elongated neck, glancing at the screen. The human had earbuds in and was watching a looping motion picture of some of their domestic pets frolicking. *Cats*, he reminded himself.
+
+Xalens chuckled as he stepped outside. Humans, of all people, had all this power in the galaxy and they chose to use it for entertainment.
+
+---
+
+/r/digitallyfreestories

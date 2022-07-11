@@ -5,7 +5,7 @@ import openai
 import argparse  # Python Command-Line Parsing Libraries
 import re
 
-max_input_length = 32
+max_input_length = 100
 
 
 def main():
@@ -32,12 +32,14 @@ def valid_len(snippet: str) -> bool:
 
 # Load your API key from an environment variable or secret management service
 
+
+
 def create_tagline(snippet: str) -> str:
     openai.api_key = os.getenv("OPENAI_API_KEY")
     prompt = f" Creative a branding for the Advertisement  of a product {snippet}: "
     response = openai.Completion.create(model="text-curie-001",
                                         prompt=prompt,
-                                        temperature=0, max_tokens=32)
+                                        temperature=0, max_tokens=250)
 
     tagline_text: str = response["choices"][0]["text"]  # extract only output text
     tagline_text = tagline_text.strip()  # removing white space within output text
@@ -71,7 +73,6 @@ def create_keyword(words: str) -> List[str]:
 
 if __name__ == "__main__":
     main()
-
 
 """git add .
 git commit -m "add Tagline.py"
