@@ -3,20 +3,20 @@ from Tagline import create_tagline, create_keyword
 from typing import List
 
 app = FastAPI()
-max_input_length = 5000
+max_input_length = 32
 
 
-@app.get("/Thecking_mistakes")
-async def checking_mistakes_api(prompt: str):
+@app.get("/Tagline_generator")
+async def create_tagline_api(prompt: str):
     valid_in_len(prompt)
-    mistakes = checking_mistakes(prompt)
-    return {"snippet": mistakes, "keywords": None}
+    snippet = create_tagline(prompt)
+    return {"snippet": snippet, "keywords": None}
 
 
-@app.get("/generate_recommendations")
-async def generate_recommendations_api(prompt: str):
+@app.get("/Keywords_generator")
+async def create_keywords_api(prompt: str):
     valid_in_len(prompt)
-    recommendation = generate_recommendations(level, experience, prompt)
+    keywords = create_keyword(prompt)
     return {"snippet": None, "keywords": keywords}
 
 
