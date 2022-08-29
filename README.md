@@ -1,5 +1,5 @@
 # StoryTeller
-Experiment to create a completely new story with GPT3
+Experiment to generate constructive critisism with GPT3
 
 
 This is my Project @ Stevens
